@@ -39,10 +39,8 @@ classifiers = ['Development Status :: 4 - Beta',
                'Topic :: Scientific/Engineering :: Mathematics',
                'Operating System :: OS Independent']
 
-support_ipython_6 = (sys.version_info >= (3, 3))
-
 install_reqs = [
-    'ipython>=3.2.3' if support_ipython_6 else 'ipython>=3.2.3, <6',
+    'ipython>=3.2.3',
     'matplotlib>=1.4.0',
     'numpy>=1.11.1',
     'pandas>=0.18.1',
